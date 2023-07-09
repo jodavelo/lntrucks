@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url('/fonts/TangerineRegular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Tangerine';
+    src: url('/fonts/TangerineBold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/* .logo-container {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 300px;
+    z-index: 10000;
+}
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+.logo-text {
+    font-family: 'Tangerine', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -10px;
+} */
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+.logo-text {
+    font-family: 'Tangerine', serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.custom-navbar {
+    height: 50px;
+    background-color: brown;
+}
+
+.about-us-mini {
+    text-align: justify;
+}
+
+.text-justify-custom{
+    text-align: justify;
+}
+
+/* .height-navbar {
+    height: 40px !important;
+} */
+
+@media (max-width: 992px) {
+    .logo-container .logo {
+        width: 50px;
+    }
+
+    .logo-container .logo-text {
+        font-size: 1.2rem;
+    }
+}
+
+.bolder-font {
+    font-weight: bolder;
+}
+
+.cursive-font {
+    font-style: italic;
+}
+
+
